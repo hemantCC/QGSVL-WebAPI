@@ -1,0 +1,11 @@
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\bin\Debug\netcoreapp3.1\QGSVL.EntityLayer.deps.json
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\bin\Debug\netcoreapp3.1\QGSVL.EntityLayer.runtimeconfig.json
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\bin\Debug\netcoreapp3.1\QGSVL.EntityLayer.runtimeconfig.dev.json
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\bin\Debug\netcoreapp3.1\QGSVL.EntityLayer.dll
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\bin\Debug\netcoreapp3.1\QGSVL.EntityLayer.pdb
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\obj\Debug\netcoreapp3.1\QGSVL.EntityLayer.csproj.CoreCompileInputs.cache
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\obj\Debug\netcoreapp3.1\QGSVL.EntityLayer.AssemblyInfoInputs.cache
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\obj\Debug\netcoreapp3.1\QGSVL.EntityLayer.AssemblyInfo.cs
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\obj\Debug\netcoreapp3.1\QGSVL.EntityLayer.dll
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\obj\Debug\netcoreapp3.1\QGSVL.EntityLayer.pdb
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.Entities\obj\Debug\netcoreapp3.1\QGSVL.EntityLayer.genruntimeconfig.cache

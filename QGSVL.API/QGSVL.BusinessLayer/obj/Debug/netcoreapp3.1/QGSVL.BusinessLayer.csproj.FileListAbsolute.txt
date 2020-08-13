@@ -1,0 +1,14 @@
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\bin\Debug\netcoreapp3.1\QGSVL.BusinessLayer.deps.json
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\bin\Debug\netcoreapp3.1\QGSVL.BusinessLayer.dll
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\bin\Debug\netcoreapp3.1\QGSVL.BusinessLayer.pdb
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\bin\Debug\netcoreapp3.1\QGSVL.DataAccessLayer.dll
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\bin\Debug\netcoreapp3.1\QGSVL.EntityLayer.dll
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\bin\Debug\netcoreapp3.1\QGSVL.DataAccessLayer.pdb
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\bin\Debug\netcoreapp3.1\QGSVL.EntityLayer.pdb
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\obj\Debug\netcoreapp3.1\QGSVL.BusinessLayer.csprojAssemblyReference.cache
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\obj\Debug\netcoreapp3.1\QGSVL.BusinessLayer.csproj.CoreCompileInputs.cache
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\obj\Debug\netcoreapp3.1\QGSVL.BusinessLayer.AssemblyInfoInputs.cache
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\obj\Debug\netcoreapp3.1\QGSVL.BusinessLayer.AssemblyInfo.cs
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\obj\Debug\netcoreapp3.1\QGSVL.BusinessLayer.csproj.CopyComplete
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\obj\Debug\netcoreapp3.1\QGSVL.BusinessLayer.dll
+E:\Gateway TechnoLabs\Project\Phase-2\Update API\QGSVL.API\QGSVL.BusinessLayer\obj\Debug\netcoreapp3.1\QGSVL.BusinessLayer.pdb
