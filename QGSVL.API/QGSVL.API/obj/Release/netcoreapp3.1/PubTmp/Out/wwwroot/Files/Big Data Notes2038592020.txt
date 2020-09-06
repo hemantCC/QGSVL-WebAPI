@@ -1,0 +1,25 @@
+what is big data and characteristics
+
+- I would say Big data is extremely huge volume of data.
+-what is considered as extremely huge volume of data ? 10 GB ? 10 TB 
+There is no hard number tha defines big data. 
+this is because of two reasons 1. data that is considered to be huge today may not be considered as big a year from now. 2. its all relative , the data that i consider to be big may not be the case for companies like google and facebook.
+
+lets say if we aare defining big data problems in terms of volume
+then we can say that the scale of pettabyte is definately something big.
+
+but volume is not the only factor that defines big data.
+
+here is y  ,
+consider we have open a startup and made a social media application.At the beginning we have x numbers of users and 1 tb of database now this is not a big problem because we can handle this with our traditinal tools and a good database system is all you need but 
+
+=> the more imp question is the growth rate  suppose that if our application is better than other social media app and its growth rate is double in every 3 months. after sometime it will turn into huge data and we will we requiring a scalable big data solution.
+ 
+ so while defining big data, the speed of the data that grows also matters. or we can say the velocity. 
+
+mostly volume and velocity are the deciding factor to know where we have big data or not.
+
+=> but also 1 more factor that matters : Variety. Our traditional database are highly structured but in our social media application we will have data in different formats that can we text, photos, videos,etc.. . that would be hard to process and analyze.
+
+
+so whenever you ask yourself we have big data problem or not, we consider these three factors

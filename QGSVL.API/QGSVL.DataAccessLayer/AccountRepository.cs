@@ -104,6 +104,7 @@ namespace QGSVL.DataAccessLayer
                     Subject = new ClaimsIdentity(new Claim[]
                     {
                         new Claim("UserId", user.Id.ToString()),
+                        new Claim("UserName", user.Email.ToString()),
                         new Claim(_options.ClaimsIdentity.RoleClaimType, role.FirstOrDefault())
                     }),
                     Expires = DateTime.UtcNow.AddDays(1),

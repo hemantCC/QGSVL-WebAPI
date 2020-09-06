@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u6fvee4miAAL/1ZhthS4f6RqwBZv6eZSJPChaQcWCBs9+SDh367WsdNK15r4B1vz3sEhmNM35DtaK3CyI7R7Cg==",
+  "dgSpecHash": "iD1i745PLgBz/atxZzTMnL5VDbfj5oZM0RqqHw7tpZ9TLWfINU1Aty7XwDS6lvUBxa0lA6z2bxS1cBjFE3N0tQ==",
   "success": true,
-  "projectFilePath": "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.BusinessLayer\\QGSVL.BusinessLogicLayer.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.BusinessLayer\\QGSVL.BusinessLogicLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

@@ -1,0 +1,12 @@
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\bin\Release\netcoreapp3.1\QGSVL.DataAccessLayer.deps.json
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\bin\Release\netcoreapp3.1\QGSVL.DataAccessLayer.dll
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\bin\Release\netcoreapp3.1\QGSVL.DataAccessLayer.pdb
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\bin\Release\netcoreapp3.1\QGSVL.EntityLayer.dll
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\bin\Release\netcoreapp3.1\QGSVL.EntityLayer.pdb
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\obj\Release\netcoreapp3.1\QGSVL.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\obj\Release\netcoreapp3.1\QGSVL.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\obj\Release\netcoreapp3.1\QGSVL.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\obj\Release\netcoreapp3.1\QGSVL.DataAccessLayer.AssemblyInfo.cs
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\obj\Release\netcoreapp3.1\QGSVL.DataAccessLayer.csproj.CopyComplete
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\obj\Release\netcoreapp3.1\QGSVL.DataAccessLayer.dll
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.DataAccessLayer\obj\Release\netcoreapp3.1\QGSVL.DataAccessLayer.pdb

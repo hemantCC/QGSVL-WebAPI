@@ -40,7 +40,7 @@ namespace QGSVL.API.Controllers
         public async Task<IActionResult> GetVehicle(int id)
         {
             VehicleDetailVM vehicleDetail = await _vehicleService.GetVehicle(id);
-            if (vehicleDetail.Vehicle == null || vehicleDetail.MainEquipments == null || vehicleDetail.StandardEquipments == null)
+            if (vehicleDetail == null || vehicleDetail.Vehicle == null || vehicleDetail.MainEquipments == null || vehicleDetail.StandardEquipments == null)
             {
                 return NotFound("Data not found!");
             }
@@ -54,7 +54,7 @@ namespace QGSVL.API.Controllers
             var values = await _vehicleService.GetVehicleFilters();
             if (values == null)
             {
-                return NotFound();
+                return NotFound("No Filters Found");
             }
             return Ok(values);
         }

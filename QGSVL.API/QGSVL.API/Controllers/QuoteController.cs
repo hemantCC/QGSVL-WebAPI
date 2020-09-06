@@ -30,7 +30,7 @@ namespace QGSVL.API.Controllers
         /// <summary>
         /// returns all quotes only for a requesting user
         /// </summary>
-        /// <returns></returns>
+        /// <returns>List of quotes</returns>
         [HttpGet]
         [Route("GetUserQuotes")]
         public async Task<IActionResult> GetUserQuotes()
@@ -43,6 +43,12 @@ namespace QGSVL.API.Controllers
             return Ok(quotes);
         }
 
+
+        /// <summary>
+        /// generates quote for a user and adds into the database
+        /// </summary>
+        /// <param name="quote"></param>
+        /// <returns>quote status and generated quote</returns>
         [HttpPost]
         [Route("GenerateQuote")]
         public async Task<IActionResult> GenerateQuote(GenerateQuoteVM quote)
@@ -51,10 +57,11 @@ namespace QGSVL.API.Controllers
             return Ok(quoteObj);
         }
 
+
         /// <summary>
-        ///  returns currently logged in user profile
+        ///  returns currently logged in user Email
         /// </summary>
-        /// <returns>User</returns>
+        /// <returns>User Email</returns>
         [NonAction]
         public async Task<string> GetCurrentUserEmail()
         {

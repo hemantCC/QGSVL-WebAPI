@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -14,6 +15,7 @@ using QGSVL_WebAPI.Models.DataEntities;
 
 namespace QGSVL.API.Controllers
 {
+    [Authorize(Roles = "User")]
     [Route("api/[controller]")]
     [ApiController]
     public class StepController : ControllerBase
@@ -21,6 +23,8 @@ namespace QGSVL.API.Controllers
         private readonly IStepService _stepService;
         private readonly IWebHostEnvironment _hostEnvironment;
         private readonly UserManager<user> _userManager;
+        private readonly Random _random;
+        string WwwRootPath;
         public StepController(IStepService _stepService,
             IWebHostEnvironment _hostEnvironment,
             UserManager<user> _userManager)
@@ -28,7 +32,15 @@ namespace QGSVL.API.Controllers
             this._stepService = _stepService;
             this._hostEnvironment = _hostEnvironment;
             this._userManager = _userManager;
+            WwwRootPath = _hostEnvironment.WebRootPath;
+            _random = new Random();
         }
+
+
+        /// <summary>
+        /// returns all the drop down values of creditcheck page from database
+        /// </summary>
+        /// <returns>complex type</returns>
 
         [HttpGet]
         [Route("CreditCheckValues")]
@@ -37,6 +49,12 @@ namespace QGSVL.API.Controllers
             CreditCheckValuesVM values = await _stepService.CreditCheckValues(await GetCurrentUserEmail());
             return Ok(values);
         }
+
+        /// <summary>
+        /// submits the creditcheck values of a user into the database
+        /// </summary>
+        /// <param name="creditCheckVM"></param>
+        /// <returns>status code</returns>
 
         [HttpPost]
         [Route("CreditCheck")]
@@ -48,6 +66,11 @@ namespace QGSVL.API.Controllers
                 return BadRequest();
         }
 
+        /// <summary>
+        /// submits the direct debit value of a user into the database
+        /// </summary>
+        /// <param name="bankDetailVM"></param>
+        /// <returns>status code</returns>
 
         [HttpPost]
         [Route("DirectDebit")]
@@ -64,46 +87,24 @@ namespace QGSVL.API.Controllers
 
         }
 
+        /// <summary>
+        /// saves the documents in the wwwroot and other values into the database
+        /// </summary>
+        /// <param name="drivingLicense"></param>
+        /// <param name="certificateOfResidence"></param>
+        /// <param name="identificationProof"></param>
+        /// <param name="quoteId"></param>
+        /// <remarks>it gives unique name to the documents for its identification</remarks>
+        /// <remarks>path of document is stored in the database</remarks>
+        /// <returns></returns>
+
         [HttpPost]
         [Route("SubmitDocuments")]
         public async Task<IActionResult> SubmitDocuments(IFormFile drivingLicense, IFormFile certificateOfResidence, IFormFile identificationProof, [FromForm]string quoteId)
         {
-            string WwwRootPath = _hostEnvironment.WebRootPath;
-            /*
-             * Saves image to wwwroot/Images
-             */
-            //For DrivingLicense
-            string FileName1 = Path.GetFileNameWithoutExtension(drivingLicense.FileName);
-            string Extension1 = Path.GetExtension(drivingLicense.FileName);
-            FileName1 = FileName1 + DateTime.Now.ToString("yymmssyyyy") + Extension1;
-            string path1 = Path.Combine(WwwRootPath + "/Files/" + FileName1);
-            using (var FileStream = new FileStream(path1, FileMode.Create))
-            {
-                await drivingLicense.CopyToAsync(FileStream);
-            }
-            Document DrivingLicense = new Document() { Path = FileName1, QuoteId = int.Parse(quoteId) };
-
-            //For Certificate of Residence
-            string FileName2 = Path.GetFileNameWithoutExtension(certificateOfResidence.FileName);
-            string Extension2 = Path.GetExtension(certificateOfResidence.FileName);
-            FileName2 = FileName2 + DateTime.Now.ToString("yymmssyyyy") + Extension2;
-            string path2 = Path.Combine(WwwRootPath + "/Files/" + FileName2);
-            using (var FileStream = new FileStream(path2, FileMode.Create))
-            {
-                await certificateOfResidence.CopyToAsync(FileStream);
-            }
-            Document CertificateOfResidence = new Document() { Path = FileName2, QuoteId = int.Parse(quoteId) };
-
-            //For identificationProof
-            string FileName3 = Path.GetFileNameWithoutExtension(identificationProof.FileName);
-            string Extension3 = Path.GetExtension(identificationProof.FileName);
-            FileName3 = FileName3 + DateTime.Now.ToString("yymmssyyyy") + Extension3;
-            string path3 = Path.Combine(WwwRootPath + "/Files/" + FileName3);
-            using (var FileStream = new FileStream(path3, FileMode.Create))
-            {
-                await identificationProof.CopyToAsync(FileStream);
-            }
-            Document IdentificationProof = new Document() { Path = FileName3, QuoteId = int.Parse(quoteId) };
+            Document DrivingLicense = await CreateDocument(drivingLicense, quoteId);
+            Document CertificateOfResidence = await CreateDocument(certificateOfResidence, quoteId);
+            Document IdentificationProof = await CreateDocument(identificationProof, quoteId);
 
             if (await _stepService.SubmitDocuments(DrivingLicense, CertificateOfResidence, IdentificationProof))
                 return Ok();
@@ -112,9 +113,30 @@ namespace QGSVL.API.Controllers
         }
 
         /// <summary>
-        ///  returns currently logged in user profile
+        /// saves the file in the wwwroot folder
         /// </summary>
-        /// <returns>User</returns>
+        /// <param name="file"></param>
+        /// <param name="quoteId"></param>
+        /// <returns>Document</returns>
+        [NonAction]
+        public async Task<Document> CreateDocument(IFormFile file, string quoteId)
+        {
+            string FileName = Path.GetFileNameWithoutExtension(file.FileName);
+            string Extension = Path.GetExtension(file.FileName);
+            FileName = FileName + _random.Next(0,1000000).ToString() + Extension;
+            string path1 = Path.Combine(WwwRootPath + "/Files/" + FileName);
+            using (var FileStream = new FileStream(path1, FileMode.Create))
+            {
+                await file.CopyToAsync(FileStream);
+            }
+            Document document = new Document() { Path = FileName, QuoteId = int.Parse(quoteId) };
+            return document;
+        }
+
+        /// <summary>
+        ///  returns currently logged in user Email
+        /// </summary>
+        /// <returns>Email</returns>
         [NonAction]
         public async Task<string> GetCurrentUserEmail()
         {

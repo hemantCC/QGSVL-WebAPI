@@ -6960,11 +6960,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.BusinessLayer\\QGSVL.BusinessLogicLayer.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.BusinessLayer\\QGSVL.BusinessLogicLayer.csproj",
       "projectName": "QGSVL.BusinessLogicLayer",
-      "projectPath": "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.BusinessLayer\\QGSVL.BusinessLogicLayer.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.BusinessLayer\\QGSVL.BusinessLogicLayer.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6983,11 +6983,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.DataAccessLayer\\QGSVL.DataAccessLayer.csproj": {
-              "projectPath": "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.DataAccessLayer\\QGSVL.DataAccessLayer.csproj"
+            "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.DataAccessLayer\\QGSVL.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.DataAccessLayer\\QGSVL.DataAccessLayer.csproj"
             },
-            "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj": {
-              "projectPath": "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj"
+            "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj"
             }
           }
         }

@@ -1,0 +1,12 @@
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\bin\Release\netcoreapp3.1\QGSVL.EntityLayer.deps.json
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\bin\Release\netcoreapp3.1\QGSVL.EntityLayer.runtimeconfig.json
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\bin\Release\netcoreapp3.1\QGSVL.EntityLayer.runtimeconfig.dev.json
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\bin\Release\netcoreapp3.1\QGSVL.EntityLayer.dll
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\bin\Release\netcoreapp3.1\QGSVL.EntityLayer.pdb
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\obj\Release\netcoreapp3.1\QGSVL.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\obj\Release\netcoreapp3.1\QGSVL.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\obj\Release\netcoreapp3.1\QGSVL.EntityLayer.AssemblyInfo.cs
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\obj\Release\netcoreapp3.1\QGSVL.EntityLayer.dll
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\obj\Release\netcoreapp3.1\QGSVL.EntityLayer.pdb
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\obj\Release\netcoreapp3.1\QGSVL.EntityLayer.genruntimeconfig.cache
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.Entities\obj\Release\netcoreapp3.1\QGSVL.EntityLayer.csprojAssemblyReference.cache

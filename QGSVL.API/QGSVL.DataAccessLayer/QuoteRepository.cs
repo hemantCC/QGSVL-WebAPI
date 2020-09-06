@@ -30,7 +30,7 @@ namespace QGSVL.DataAccessLayer
         {
             UserProfile user = await GetUserProfileByUserEmail(Email);
             IEnumerable<Quote> quotes = await _context.Quote.Include("Insurance")
-                .Include("QuoteStatus").Include("PaybackTime").Include("Car").Include("Mileage").Where(x => x.User == user).ToListAsync();
+                .Include("QuoteStatus").Include("PaybackTime").Include("Car").Include("Mileage").Where(x => x.User == user).OrderByDescending(x => x.Id).ToListAsync();
             return quotes;
         }
 

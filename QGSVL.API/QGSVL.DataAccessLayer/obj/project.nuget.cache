@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IfiCe07+S3fA46N9PIg81HbT2wwmxo24i3cuRWRYIil0S56cigEHgjcWa+2AaIs3qKNQf/Bav/S/4kkjY0Tchg==",
+  "dgSpecHash": "ZkJaoSsvk5FDYN4Cr1AAxBfdsV48p8oNcKV60tfA7NBnsg70y6OIrI2NWCFU/MKMf8r7t0TVMhF0XrA1u54SWw==",
   "success": true,
-  "projectFilePath": "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.DataAccessLayer\\QGSVL.DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.DataAccessLayer\\QGSVL.DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

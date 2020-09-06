@@ -1,0 +1,17 @@
+Most important knowledge you should get
+2. Project updates
+1. master current stack (udemy and topic search)
+3. WPF WCF 
+4. Flutter
+
+api/vehicle/GetVehicles
+
+
+---------------------
+Delegate
+enum
+struct
+Microservices
+WCF 
+WPF
+Redux

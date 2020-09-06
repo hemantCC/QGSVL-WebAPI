@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj": {}
   },
   "projects": {
-    "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj": {
+    "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj",
         "projectName": "QGSVL.EntityLayer",
-        "projectPath": "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.Entities\\QGSVL.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Gateway TechnoLabs\\Project\\Phase-2\\Update API\\QGSVL.API\\QGSVL.Entities\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\QGSVL-WebAPI\\QGSVL.API\\QGSVL.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

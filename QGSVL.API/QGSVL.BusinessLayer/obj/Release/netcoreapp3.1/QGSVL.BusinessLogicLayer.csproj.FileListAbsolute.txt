@@ -1,0 +1,14 @@
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\bin\Release\netcoreapp3.1\QGSVL.BusinessLogicLayer.deps.json
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\bin\Release\netcoreapp3.1\QGSVL.BusinessLogicLayer.dll
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\bin\Release\netcoreapp3.1\QGSVL.BusinessLogicLayer.pdb
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\bin\Release\netcoreapp3.1\QGSVL.DataAccessLayer.dll
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\bin\Release\netcoreapp3.1\QGSVL.EntityLayer.dll
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\bin\Release\netcoreapp3.1\QGSVL.DataAccessLayer.pdb
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\bin\Release\netcoreapp3.1\QGSVL.EntityLayer.pdb
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\obj\Release\netcoreapp3.1\QGSVL.BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\obj\Release\netcoreapp3.1\QGSVL.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\obj\Release\netcoreapp3.1\QGSVL.BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\obj\Release\netcoreapp3.1\QGSVL.BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\obj\Release\netcoreapp3.1\QGSVL.BusinessLogicLayer.csproj.CopyComplete
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\obj\Release\netcoreapp3.1\QGSVL.BusinessLogicLayer.dll
+C:\Users\DELL\Desktop\QGSVL-WebAPI\QGSVL.API\QGSVL.BusinessLayer\obj\Release\netcoreapp3.1\QGSVL.BusinessLogicLayer.pdb
